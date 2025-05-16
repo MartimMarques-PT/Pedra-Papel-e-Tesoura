@@ -18,26 +18,28 @@ function playRound(humanChoice, computerChoice){
     humanChoice.toLowerCase() = gethumanChoice();
     computerChoice = getComputerChoice();
     if (computerChoice == "rock" && humanChoice == "rock"){
-        return "It's a draw!";
+        console.log ("It's a draw!");
     } else if (computerChoice == "rock" && humanChoice == "paper"){
-        return "You win!";
+        console.log ("You win!");
     } else if (computerChoice == "rock" && humanChoice == "scissors"){
-        return "You lose!";
+        console.log ("You lose!");
     } else if (computerChoice == "paper" && humanChoice == "rock"){
-        return "You lose!";
+        console.log ("You lose!");
     } else if (computerChoice == "paper" && humanChoice == "paper"){
-        return "It's a draw!";
+        console.log ("It's a draw!");
     } else if (computerChoice == "paper" && humanChoice == "scissors"){
-        return "You win!";
+        console.log ("You win!");
     } else if (computerChoice == "scissors" && humanChoice == "rock"){
-        return "You lose!";
+        console.log ("You lose!");
     } else if (computerChoice == "scissors" && humanChoice == "paper"){
-        return "It's a draw!";
+        console.log ("It's a draw!");
     } else if (computerChoice == "scissors" && humanChoice == "rock"){
-        return "You win!";
+        console.log ("You win!");
     }
 }
 
 function playGame(){
-    
+    for (let n = 0; n <= 5; n++){
+
+    }
 }
